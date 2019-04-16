@@ -10,6 +10,6 @@ A magic variable named environment_name must be defined in inventory. Use group_
 3. Ensure that /var/log/ansible is writeable by user running ansible
 4. Whitelist json_audit callback plugin:
 
-    [defaults]
-    bin_ansible_callbacks = True
-    callback_whitelist = json_audit
+        [defaults]
+        bin_ansible_callbacks = True
+        callback_whitelist = json_audit
